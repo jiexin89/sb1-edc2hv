@@ -1,0 +1,10 @@
+{
+  "name": "window-sync-app",
+  "private": true,
+  "scripts": {
+    "build": "pyinstaller --onefile --noconsole main.py"
+  },
+  "dependencies": {
+    "pyinstaller": "^5.13.0"
+  }
+}
